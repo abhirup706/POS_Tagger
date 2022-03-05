@@ -1,0 +1,28 @@
+POST using HMM:
+
+
+Input:
+the planet jupiter and its moons are in effect a mini solar system .
+
+Output:
+The steps of states are DETERMINER NOUN DETERMINER CONJUNCTION PRONOUN NOUN VERB PREPOSITION NOUN DETERMINER PREPOSITION ADJECTIVE NOUN PUNCT with highest probability of 1.7590956608507378e-51
+
+
+Input: 
+computers process programs accurately .
+
+Output:
+The steps of states are NOUN NOUN NOUN ADVERB PUNCT with highest probability of 3.703441474431746e-21
+
+
+POST using RNN:( i trained the model 4 times to achieve these results)
+
+Input:
+the planet jupiter and its moons are in effect a mini solar system .
+'DETERMINER', 'NOUN', 'NOUN', 'CONJUNCTION', 'NOUN', 'PRONOUN', 'VERB', 'PREPOSITION', 'VERB', 'DETERMINER', 'NOUN', 'NOUN', 'NOUN', 'PUNCT',
+
+Input:
+'the', 'planet', 'jupiter', 'and', 'its', 'moons', 'are', 'in', 'effect', 'a', 'mini', 'solar', 'system', '.'
+'VERB', 'VERB', 'ADJECTIVE', 'NOUN', 'PUNCT'
+
+
